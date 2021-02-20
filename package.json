@@ -1,0 +1,86 @@
+{
+  "name": "talkie",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "./",
+  "main": "public/electron.js",
+  "description": "Talkie, the product that you need for your remote work",
+  "author": "Masood <masoodmuhammad365@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "electron-is-dev": "^1.2.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-updater": "^4.3.5",
+    "firebase": "^8.2.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-flash-message": "^1.0.5",
+    "react-icons": "^4.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "reactjs-popup": "^2.0.4",
+    "reactstrap": "^8.8.1",
+    "wait-on": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "build": {
+    "appId": "com.talkie",
+    "extends": null,
+    "files": [
+      "./build/**/*",
+      "./public/electron.js"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "preelectron-pack": "npm run-script build",
+    "react-test": "react-scripts test --env=jsdom",
+    "react-eject": "react-scripts eject",
+    "electron-build": "electron-builder",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always",
+    "dev": "concurrently -k \"BROWSER=none npm start\" \"npm:electron\"",
+    "electron": "wait-on tcp:3000 && electron ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "electron": "^11.3.0",
+    "electron-builder": "^22.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Masuu-2830/Talkie-Win.git"
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+.box8 {
+  padding: 10px 30px 80px 30px;
+  background-color: white;
+  z-index: 1;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+}
+.head8 {
+  color: #3d3b66;
+  font-size: 20px;
+  
+}
+.header8 {
+  margin-right: 30%;
+  margin-left: 3px;
+  font-weight: 500;
+}
+.headImage {
+  float: right;
+  cursor: pointer;
+}
+.ul8 {
+  list-style-type: none;
+  padding: 0;
+  margin-top:30px ;
+  border-right: 3px solid #DEDEDE;
+  border-radius: 4px;
+}
+.titleImg {
+  margin-right: 30px;
+}
+.list8 {
+  padding: 0;
+  list-style-type: none;
+  height: 80px;
+  border-bottom: 2px solid #f5f5f6;
+  color: #3d3b66;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 98%;
+  /* display: inline-flexbox; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+span.title8 {
+  padding: 0;
+  color: #3d3b66;
+  font-size: 20px;
+  margin-right: 18%;
+  /* align-items: center; */
+}
+.email8 {
+  padding: 0;
+  color: #3d3b66;
+  font-size: 12px;
+  margin-right: 18%;
+}
+.remove8 {
+  padding: 0;
+  color: tomato;
+  font-size: 12px;
+}
+.button8 {
+  padding: 0;
+  float: right;
+  margin: 0;
+  margin-top: 10px;
+  background-color: #3d3b66;
+  color: #FFFFFF;
+    border: none;
+    border-radius: 27px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 17px 59px 16px 59px;
+    margin-bottom: 30px;
+  
+}

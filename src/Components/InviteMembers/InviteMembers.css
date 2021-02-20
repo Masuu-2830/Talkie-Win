@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+.box9{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 30px;
+    height: 80%;
+    border-radius: 8px;
+    text-align: left;
+    margin-right: 0;
+    margin-top: 0;
+}
+.head9{
+    color: #3D3B66;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+}
+.h49{
+    color:#3D3B66;
+    font-size: 13px;
+    margin: 27px 0;
+}
+.input9{
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    width: 85%;
+    margin-bottom: 20px;
+    margin-right: 18px;
+    padding-bottom: 22px;
+
+}
+.inputcopybox{
+    display: inline;
+    margin-bottom: 50px;
+}
+.inputmailbox{
+    display: inline;
+    margin-bottom: 50px;
+}
+input:focus{
+    outline: none;
+}
+.bottom9{
+    margin: 0 auto;
+    text-align: center;
+}
+.button9{
+    background-color: white;
+    color: #3D3B66;
+    border: none;
+    margin-top: 10px;
+    margin-right: 8px;
+    border-radius: 27px;
+    border:2px solid #3D3B66;
+    font-size: 10px;
+    font-weight: 600;
+    padding:17px 54px 16px 54px;
+}
+.closeInvite{
+    float: right;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+}

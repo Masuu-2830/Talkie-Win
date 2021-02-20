@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  top: 40px;
+}
+.offset-3 {
+  margin-left: 30%;
+  width: 40%;
+  height: 40%;
+}
+.logosu {
+  float: left;
+  margin-top: -13px;
+}
+.col-12 .offset-2 .terms{
+    color:gray;
+}
+.col-6 .offset-3 .signin{
+   color: gray;
+}
+.text {
+  color: #3d3b66;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-right: 100px;
+  height: 17px;
+  font-weight: 600;
+}
+
+.text-in {
+  color: #3d3b66;
+  height: 17px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  padding-right: 100px;
+}
+
+.form-container {
+  
+  margin-top: 100px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.input .input .col-12{
+  border: 2px solid #F5F5F6;  
+}
+
+.col-10 .offset-1 .form{
+    padding-left: 20px;
+}
+
+.form-text {
+  color: #3d3b66;
+  margin-left: 30%;
+  margin-top: 20px;
+  top: 30px;
+  font-weight: 600;
+  font-size: 1.8em;
+  font-family: "Poppins", sans-serif;
+}
+
+.col-12.offset-5{
+  margin-left: 40%;
+  color: #3d3b66;
+  margin-top: 20px;
+  top: 30px;
+  font-weight: 600;
+  font-size: 1.8em;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.inputsignin {
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #F5F5F6;
+  margin-top: 30px;
+  color: #3d3b66;
+}
+input.inputsu.col-12 {
+  width: 100%;
+  border: 2.5px solid #dddcdc;
+  border-radius: 7px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.col-12.offset-4.terms {
+  font-size: 12px;
+  margin-left: 0;
+  color: #aaaaaa;
+  padding: 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+.col-12.offset-4.signin {
+  padding: 0;
+  color: #aaaaaa;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.col-12.offset-4.signup {
+  padding: 0;
+  color: #aaaaaa;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.buttonsu {
+  border-radius: 10px;
+  margin-top: 20px;
+  /* background-color: #3d3b66; */
+  font-weight: 5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.3em;
+  margin-bottom: 0;
+  padding: initial;
+}
+
+.buttonsu:focus{
+  outline: none;
+}
+
+.or {
+  margin-top: 30px;
+  width: 692px;
+}
+
+.google {
+  margin-top: 30px;
+  cursor: pointer;
+  height: 50px;
+  width: 1000px;
+  border: 2.5px solid #dddcdc;
+
+  color: #3d3b66;
+  font-weight: 600;
+  border-radius: 10px;
+  padding-top: 7px;
+  text-align: center;
+  align-content: center;
+  vertical-align: center;
+  justify-content: center;
+  font-size: 1.3em;
+}
+.gimagesu{
+  margin-right: 10px;
+    width: 25px;
+    margin-top: -3px;
+  }
+
+.gtextsu{
+  border-left: 3px solid #dddcdc;
+  padding-left: 10px;
+  
+}
+
+.gimagesu:hover{
+  background-color: #3d3b66;
+}
+.google:hover{
+  background-color: #3d3b66;
+  color: #F5F5F6;
+  border: none;
+}
+
+.terms {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.signin {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+span.spansu {
+  color: #1DA1F2;
+  padding: 0;
+  padding-right: 0;
+}
+
+.checkbox {
+  float: left;
+  color: #aaaaaa;
+  font-size: 12px;
+}
+.check{
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: 550;
+  margin-bottom: 0;
+}
+.checksi{
+  display: inline-flex;
+  align-items: center;
+}
+
+.stay-password {
+  margin-top: 30px;
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+.forgot {
+  float: right;
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.signup {
+  margin-top: 40px;
+}
+input::placeholder{
+  color:#dddcdc;
+  margin-left: 10px;
+}
